@@ -1,9 +1,4 @@
 ---
 -
-[inventory]
-enable_plugins = host_list, script, yaml, ini,aws_ec2
-
-[defaults]
-# インベントリファイルのパスを指定。
-inventory = ./hosts/aws_ec2.yml
-
+  playbook: playbook.yml
+  inventory: ./hosts/aws_ec2.yml

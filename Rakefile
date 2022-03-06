@@ -30,7 +30,7 @@ namespace :serverspec do
           ENV['TARGET_USER'] = property["user"]
         end
         ENV['TARGET_PASSWORD'] = host["pass"]
-        ENV['TARGET_CONNECTION'] = host["connection"]
+        ENV['TARGET_CONNECTION'] = "ssh"
 
         roles = property["roles"]
         for role in property["roles"]
