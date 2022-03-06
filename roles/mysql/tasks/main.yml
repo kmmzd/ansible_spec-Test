@@ -4,10 +4,10 @@
     name: https://dev.mysql.com/get/mysql80-community-release-el8-3.noarch.rpm
     state: present
 
-- name: install mysql-community-client
-  yum:
-    name: mysql-community-client
-    state: latest
+# - name: install mysql-community-client
+#   yum:
+#    name: mysql-community-client
+ #   state: latest
 
 
 

@@ -9,9 +9,9 @@
     - gcc
     - gcc-c++
     - readline-devel
-    - mysql
-    - mysql-devel
     - libselinux-python
+  #  - mysql
+  #  - mysql-devel
 
 - name: Install rbenv
   git:
