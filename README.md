@@ -22,11 +22,14 @@ https://github.com/volanja/ansible_spec
 |   |   └── main.yml
 |   ├── nodejs/tasks
 |   |   └── main.yml
-|   └── ruby
-|       ├── tasks
-|       |   └── main.yml
-|       └── templates
-|           └── rbenv_system.sh.j2
+|   ├── ruby
+|   |   ├── tasks
+|   |   |   └── main.yml
+|   |   └── templates
+|   |       └── rbenv_system.sh.j2
+|   └── spec
+|       └── sample_spec.rb 
+├── ansible.cfg
 ├── Rakefile                     
 └── spec                         
     └── spec_helper.rb
