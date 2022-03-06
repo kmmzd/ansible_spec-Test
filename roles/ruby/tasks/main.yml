@@ -1,7 +1,7 @@
 - name: Install packages
   yum:
     name: '{{ item }}'
-    state: present
+    state: latest
     lock_timeout: 180
   with_items:
     - openssl-devel

@@ -7,12 +7,3 @@ enable_plugins = host_list, script, yaml, ini,aws_ec2
 # インベントリファイルのパスを指定。
 inventory = ./hosts/aws_ec2.yml
 
-# SSH接続する際のフィンガープリントチェックを無効化
-host_key_checking = False
-
-# ec2の秘密鍵のパスを指定（ローカル内）。
-remote_user: ec2-user
-private_key_file: ~/.ssh/mykey.pem
-© 2022 GitHub, Inc.
-Terms
-Privacy
